@@ -16,14 +16,11 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+  private int fielAddedByCollaborator;
   private final int day;
   private final int month;
   private final int year;
 
-  public void methodAddedByOwnerAlejandro(){
-    System.out.println("Este es mi cambio como propietario");;
-
-  }
   /**
    * Retrieves the day component of this date.
    *
@@ -64,9 +61,7 @@ public class Date {
     this.month = month;
     this.year = year;
   }
- public void MethodAddedByOwnerAlejandro(){
-    System.out.print("Propietario alejandrojimenez");
- }
+
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
    * month within 1 to 12, and the day valid within the given month and year, considering leap
